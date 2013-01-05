@@ -48,7 +48,7 @@ function printCategory($cat, $showCount = true)
 
 	if ($showCount == true)
 	{
-		$name .= ' (s' . count($cat->products) . ')';
+		$name .= ' (' . count($cat->products) . ')';
 	}
 	else
 	{

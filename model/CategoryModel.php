@@ -24,7 +24,6 @@ class CategoryModel
 				$products = array_merge($products, $cat->getProducts(true));
 			}
 		}
-		echo print_r($products);
 		return $products;
 	}
 }
